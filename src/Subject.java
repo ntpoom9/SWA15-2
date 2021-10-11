@@ -23,5 +23,11 @@ public class Subject {
       for (Observer observer : observers) {
          observer.update();
       }
+      
+    
+       }
+   public void delete(Observer observer){
+//	   int i = observer.indexof(0);
+       observers.remove(observer);		
    } 	
 }

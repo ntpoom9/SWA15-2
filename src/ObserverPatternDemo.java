@@ -11,6 +11,8 @@ public class ObserverPatternDemo {
       subject.setState(15);
       System.out.println("Second state change: 10");	
       subject.setState(10);
+      
+      
    }
 }
 
